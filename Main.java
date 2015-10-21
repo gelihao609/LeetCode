@@ -11,9 +11,12 @@ public class Main {
 		//DivideTwoInteger dt = new DivideTwoInteger();
 		//System.out.print(dt.divide(-2147483648, 1));
 		//System.out.print((1L<<31));
-		PalindromePartition p = new PalindromePartition();
-		System.out.println(p.partition("aba").toString());
-		
+		//PalindromePartition p = new PalindromePartition();
+		//System.out.println(p.partition("aba").toString());
+		medianInTwoSortedArray m = new medianInTwoSortedArray();
+		int[] nums1 = {1,2};
+		int[] nums2 = {1,2};
+		System.out.println(m.findMedianSortedArrays(nums1, nums2));
 	}
 
 }
