@@ -23,14 +23,13 @@ public class Main {
 		//PalindromePartition p = new PalindromePartition();
 		//System.out.println(p.partition("aba").toString());
 		//medianInTwoSortedArray m = new medianInTwoSortedArray();
-		int[] num = {3,-6};
-		
+		//int[] num = {3,-6};	
 		//int[] nums2 = {3,4,5,1,2};
 		//System.out.println(m.findMedianSortedArrays(nums1, nums2));
 		//gasStation g = new gasStation();
 		//System.out.println(g.canCompleteCircuit(nums1, nums2));
-		change(num);
-		System.out.println(Arrays.toString(num));
+		//change(num);
+		//System.out.println(Arrays.toString(num));
         //Set<List<Integer>> resultSet = new HashSet<List<Integer>>();
        // ArrayList<Integer> result = new ArrayList<Integer>();
        // result.add(num[0]);
@@ -42,7 +41,10 @@ public class Main {
 		//System.out.println(Arrays.toString(result));
 		//ThreeSUM s = new ThreeSUM();
 		//System.out.println(s.threeSum(num).toString());
-		
+		//GreyCode n = new GreyCode();
+		//n.grayCode(2);
+		CombinationSumIII f = new CombinationSumIII();
+		f.combinationSum3(2, 6);
 	}
 
 }
