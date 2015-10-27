@@ -23,7 +23,7 @@ public class Main {
 		//PalindromePartition p = new PalindromePartition();
 		//System.out.println(p.partition("aba").toString());
 		//medianInTwoSortedArray m = new medianInTwoSortedArray();
-		//int[] num = {3,-6};	
+		int[] nums = {1};	
 		//int[] nums2 = {3,4,5,1,2};
 		//System.out.println(m.findMedianSortedArrays(nums1, nums2));
 		//gasStation g = new gasStation();
@@ -43,8 +43,14 @@ public class Main {
 		//System.out.println(s.threeSum(num).toString());
 		//GreyCode n = new GreyCode();
 		//n.grayCode(2);
-		CombinationSumIII f = new CombinationSumIII();
-		f.combinationSum3(2, 6);
+		//CombinationSumIII f = new CombinationSumIII();
+		//f.combinationSum3(2, 6);
+		//String[] words = {"foo","bar"};
+		//String s = "barfoothefoobarman";
+		//SubstringWithConcatenationOfAllWords ss = new SubstringWithConcatenationOfAllWords();
+		//ss.findSubstring(s, words);
+		searchInSortedRotatedArray f = new searchInSortedRotatedArray();
+		f.search(nums, 1);
 	}
 
 }
